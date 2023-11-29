@@ -1,0 +1,59 @@
+{
+  "app": {
+    "name": "RoadCube"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "productsSyncCard": {
+      "title": "RoadCube Sync Products",
+      "primaryBtnLabel": "Sync",
+      "synText": "Remaining <remaining> of <total> products for sync",
+      "synedText": "<remaining> of <total> products synced"
+    },
+    "customersSyncCard": {
+      "title": "RoadCube Sync Customers",
+      "primaryBtnLabel": "sync",
+      "synText": "Remaining <remaining> of <total> customers for sync",
+      "synedText": "<remaining> of <total> customers synced"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "tokenStoreIDCard": {
+      "title": "RoadCube Token and Store ID",
+      "tokenLabel": "RoadCube Token",
+      "tokenPlaceholder": "Enter token here....",
+      "storeIDLabel": "RoadCube Store ID",
+      "storeIDPlaceholder": "Enter store ID here....",
+      "primaryBtnLabel": "Update"
+    },
+    "productsFlagCard": {
+      "title": "Manage Products Label",
+      "subheading": "Hide and show product points label for products",
+      "hideBtnTitle": "Hide",
+      "showBtnTitle": "Show"
+    },
+    "customersFlagCard": {
+      "title": "Manage Customers Label",
+      "subheading": "Hide and show customer points label for customers",
+      "hideBtnTitle": "Hide",
+      "showBtnTitle": "Show"
+    },
+    "transactionAndPointsCard": {
+      "title": "Manage Transaction and Points",
+      "onTransactionType": {
+        "title": "Transaction Type",
+        "none": "None",
+        "amount_title": "Amount Transaction",
+        "products_title": "Products Transaction"
+      },
+      "onTransactionFeature": {
+        "title": "Transaction Feature",
+        "none": "None",
+        "create_title": "Order Create",
+        "paid_title": "Order Paid",
+        "fulfilled_title": "Order Fulfilled"
+      }
+    }
+  }
+}
